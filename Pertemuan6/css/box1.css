@@ -1,0 +1,15 @@
+.box {
+    width: 120px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.box :nth-child(1) {
+    background-color: green;
+}
+
+.box :nth-child(3) {
+    background-color: blue;
+}
